@@ -146,7 +146,7 @@ pyocd flash --target stm32h750xx -O connect_mode=under-reset ./build/Debug/STM32
 
 本模板要求开发板 QSPI Flash 的引脚配置与反客科技的开发板一致。
 
-| 开发板 | 参考链接 |
+| 开发板 | 淘宝链接 |
 | :--- | :--- |
 | 核心板1 | [Taobao Link](https://item.taobao.com/item.htm?id=677786502974&pisk=gxyZ4GZVzQpBzeutsJM2zn1hWrDtQx7SI-gjmoqmfV0i5-a4mmoqmdmmnvXnq29fXA1x3ruUkVGsIV9q3ozYlj2jl--TLzJXCNCTmKkjna_5FTZTfxHcPK228TttcmimmEgm-DDj05553IrTXxHDAEf7tlKVgX82mm0cYvmqDcDDnqXhYmiSox0iieAnm2Dmnjc0xvmsDCximqjet0mJSEmmjkcnf0pmnx4mKv0KmxmgoxmL_xDJP0cGxxThkBf1vf0uj2JDU3nZsLq9GKJV1cGirfgWnWwEbfuuj8PbdXnzaJl7sGfi4xuLXJGNWFMYA7z4irCW9Ar0szh89iAKv54ULbev-ZGTmWzEbP_ykqwTf-u_b1bTYv0amjzVuIoaNPzxSlYdvvZ0xA3TATS8uuaa3ba1KdlIC0h7gP_pnVNzxyl7de9SHyF0omzhHemLQuNS_57wFqhc4XYxxu88H58DgfmKY4sFYKqFHVwF21oyMIh9vDu5XjAvMfmKY4sFYIdx6NnEPGhc.&spm=a21xtw.29978518.0.0&sku_properties=-1%3A-1) |
 | 核心板2 | [Taobao Link](https://item.taobao.com/item.htm?id=838568127129&pisk=g4ZK2a0lBEDCdBqKIJ7MEatua6Xg9N2F6WyXqbcHP5FTFWGnZ4gI5fMxFv9BA8MS25NlLX25T7E-18zhL4feePFUh2V8U9kSN7N-ZybGmJyE401mwij0LAiF8dPpR3T1FxkvNO0CIWwtJ01ciiYMC25nV7DvpQs65xlsdYGIROps3vnSdHi5BfM-3UtQN76t5YHSdpGIdGTs3fOWA3MB5dMoEBMIPe6TCfkSVbNSROesvSYKaUlW2yH2dJ4FyT-y4lHKJbKo63h8Vn0EGpG223hZE2p3dfKWVlURYvGnwGOxalN-c0gvn6eEX8VxnWj6vSe4b5H_GgKoZkPLYDq1hFhuuxFnsSsXXcwgC7047_-m75E-ukgBFsGbHJajfuXW3VFsn-MUGsInSW4sorNlFEhzIrF-TVAM5Swgnkua2sdsayDqfx2FvhnbdyqExPCwWfZTFkumcgS4moCErIcxEe6OBU8rRA8lCjDz47D1zAhcIRYyzVbjBjXOBU8rRAktiOcHzUuGl&spm=a21xtw.29978518.0.0&sku_properties=-1%3A-1) |
