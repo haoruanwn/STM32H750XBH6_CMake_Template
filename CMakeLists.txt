@@ -32,7 +32,10 @@ message("Build type: " ${CMAKE_BUILD_TYPE})
 enable_language(C ASM)
 
 # Create an executable object type
-add_executable(${CMAKE_PROJECT_NAME})
+add_executable(${CMAKE_PROJECT_NAME}
+        Drivers/User/Inc/test.h
+        Drivers/User/Src/test.c
+)
 
 # =========================================================================================
 #  在构建后，将ELF文件转换为BIN和HEX格式
@@ -52,6 +55,9 @@ add_subdirectory(cmake/stm32cubemx)
 
 # 添加 Library
 add_subdirectory(Library)
+
+# 添加 Driver/User
+add_subdirectory(Drivers/User)
 
 # Link directories setup
 target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
@@ -79,7 +85,7 @@ list(REMOVE_ITEM CMAKE_C_IMPLICIT_LINK_LIBRARIES ob)
 # Add linked libraries
 target_link_libraries(${CMAKE_PROJECT_NAME}
     stm32cubemx
-        user_library
-
     # Add user defined libraries
+        user_library
+        user_driver
 )
