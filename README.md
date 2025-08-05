@@ -51,7 +51,7 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 ## 引用与致谢
 
-  * **[反客科技](https://www.google.com/search?q=https://shop212360197.taobao.com/)**：提供开发板资料和使用的 FLM 格式的外部下载算法。
+  * **[反客科技](https://shop212360197.taobao.com/?spm=a21n57.shop_search.0.0.89ca4720CYzGRh)**：提供开发板资料和使用的 FLM 格式的外部下载算法。
       * 交流群：536665479、994246105
   * **[Peakors/STM32H750XBH6\_Template](https://github.com/Peakors/STM32H750XBH6_Template)**：提供 CubeMX 的 ioc 工程模板、USB 虚拟串口的实现、`printf` 和 `scanf` 重定向到串口1。本项目是在此基础上发展而来的。
 
