@@ -1,0 +1,6 @@
+# Project exclude paths
+cmake-build-*/
+build/
+.vscode/
+.idea/
+
