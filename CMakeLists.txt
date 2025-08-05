@@ -37,9 +37,7 @@ add_executable(${CMAKE_PROJECT_NAME}
         Drivers/User/Src/test.c
 )
 
-# =========================================================================================
 #  在构建后，将ELF文件转换为BIN和HEX格式
-# =========================================================================================
 add_custom_command(TARGET ${CMAKE_PROJECT_NAME} POST_BUILD
         COMMAND ${CMAKE_OBJCOPY} -O binary $<TARGET_FILE:${CMAKE_PROJECT_NAME}> ${CMAKE_PROJECT_NAME}.bin
         COMMENT "生成 bin 文件 -> ${CMAKE_PROJECT_NAME}.bin"
