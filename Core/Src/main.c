@@ -119,6 +119,7 @@ int main(void)
 
     usb_printf("USB Printf Test! Float:%f, Integer:%d\r\n", f_var, i_var);
     HAL_Delay(500);
+    printf("hello, world!\n");
   }
   /* USER CODE END 3 */
 }
