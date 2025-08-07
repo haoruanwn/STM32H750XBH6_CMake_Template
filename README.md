@@ -160,3 +160,4 @@ pyocd flash --target stm32h750xx -O connect_mode=under-reset ./build/Debug/STM32
 等待补充
 
 - [**开启浮点数打印支持**](./docs/拓展内容/开启浮点数打印支持.md)
+- 使用c++开发（待更新）
