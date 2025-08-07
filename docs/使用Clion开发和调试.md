@@ -22,7 +22,20 @@ pyocd flash --target stm32h750xx -O connect_mode=under-reset ./build/Debug/STM32
 
 ## 三、使用Clion调试
 
+未补充完，待后续更新
+
+---
+
 Clion结合pyOCD调试运行在外部flash中的程序
 
-待补充
+需要的信息
 
+- arm-none-eabi-gdb的位置（如果是linux，软件包安装的开发工具不带gdb，建议去[arm官网](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)下载）
+- pyocd的位置
+
+按照图片填写信息，在调试i之前，需要烧录对应的elf文件
+
+![2](./images/使用Clion开发和调试2.png)
+
+效果展示：
+![3](./images/使用Clion开发和调试3.png)

@@ -9,10 +9,8 @@
   * `pyocd` 调用 FLM 格式的外部下载算法，将程序烧录到外部 Flash 中。
   * USB 虚拟串口功能。
   * 基于命令行、VSCode、CLion 的编译和烧录方式。
-
-#### 暂未实现的必要功能
-
   * 在 VSCode、CLion 中通过 `pyocd` 调试运行在外部 Flash 中的程序。
+ 
 
 #### 前置条件
 
