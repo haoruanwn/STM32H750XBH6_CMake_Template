@@ -30,10 +30,10 @@ Clion结合pyOCD调试运行在外部flash中的程序
 
 需要的信息
 
-- arm-none-eabi-gdb的位置（如果是linux，软件包安装的开发工具不带gdb，建议去[arm官网](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)下载）
+- arm-none-eabi-gdb的位置（如果是linux，软件包管理器安装的开发工具不带gdb，建议去[arm官网](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)下载）
 - pyocd的位置
 
-按照图片填写信息，在调试i之前，需要烧录对应的elf文件
+按照图片填写信息，在调试之前，需要烧录对应的elf文件
 
 ![2](./images/使用Clion开发和调试2.png)
 
